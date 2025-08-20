@@ -33,8 +33,8 @@ GROUP_USERNAME = os.getenv("GROUP_USERNAME", "") # The username of your group (e
 # You need the numerical ID (e.g., -1001234567890).
 GROUP_ID = int(os.getenv("GROUP_ID", "0")) # <<<--- YOUR ACTUAL GROUP CHAT ID HAS BEEN ADDED HERE!
 
-INITIAL_FREE_CREDITS = 4  # Number of free credits for new users
-REFERRALS_FOR_CREDIT = 5  # Number of referrals needed for 1 credit reward
+INITIAL_FREE_CREDITS = 2  # Number of free credits for new users
+REFERRALS_FOR_CREDIT = 3  # Number of referrals needed for 1 credit reward
 
 # --- JSON File Paths for Persistent Data ---
 # We will store user data, blacklisted users, and additional admin IDs in JSON files.
